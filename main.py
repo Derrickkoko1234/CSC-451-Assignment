@@ -35,4 +35,4 @@ for i, pdf_path in enumerate(pdf_paths):
     num_words = sum(len(sent.split()) for sent in sentences)
 
     # Print observations
-    print(f"PDF {i+1}:\nAbstract:\n{abstract}\nNumber of sentences in abstract: {num_sentences}\nNumber of words in abstract: {num_words}\n")
+    print(f"PDF {i+1}:\nNumber of sentences in abstract: {num_sentences}\nNumber of words in abstract: {num_words}\n")
